@@ -5,34 +5,27 @@ st.header('Este es un encabezado')
 st.subheader('Este es un subencabezado')
 
 st.markdown("""
-<center>
-
+# &nbsp;
+# &nbsp;
+# &nbsp;
+# &nbsp;
 # Universidad de Colima
-### Campus Coquimatlán
-### Facultad de Ingeniería Mecánica y Eléctrica
-
-<br>
+# Campus Coquimatlán
+# Facultad de Ingeniería Mecánica y Eléctrica
 
 ## **Proyecto de Ejercicios de la 2da parcial en Streamlit**
 
-<br>
-
-</center>
-
 #### **Materia:** Análisis de Series Temporales
 #### **Maestro:** Mata López Walter Alexander
-
-<br>
 
 #### **Alumno:** Amaya González Héctor Eduardo
 
 #### **Carrera:** Ingeniería en Computación Inteligente
 #### **Semestre y Grupo:** 6°B
 
-<br>
-
 #### **Fecha de Entrega:** 26/04/2024
 """)
+
 st.markdown('### Esto es un texto en markdown')
 st.markdown("### Esto es un texto en markdown")
 
