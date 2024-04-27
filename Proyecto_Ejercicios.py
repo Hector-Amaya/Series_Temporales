@@ -33,8 +33,8 @@ st.subheader('Este es un subencabezado')
 
 st.markdown("<center> ### Proyecto parcial", unsafe_allow_html=True)
 st.markdown("<center><h2 class='centered'>Facultad de Ingeniería Mecánica y Eléctrica</h2>", unsafe_allow_html=True)
-st.markdown("<h3 class='centered'>Ingeniería en Computación Inteligente</h3>", unsafe_allow_html=True)
-st.markdown("<center><h3 class='centered'Esto es un texto en markdown</h3>", unsafe_allow_html=True)
+st.markdown("<center><h3>Ingeniería en Computación Inteligente</h3>", unsafe_allow_html=True)
+st.markdown("<center><h3 class='centered'>Esto es un texto en markdown</h3>", unsafe_allow_html=True)
 
 
 st.markdown('### Esto es un texto en markdown')
