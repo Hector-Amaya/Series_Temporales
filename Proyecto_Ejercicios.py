@@ -31,7 +31,7 @@ st.title('Hola Mundo')
 st.header('Este es un encabezado')
 st.subheader('Este es un subencabezado')
 
-st.markdown("<h1 class='centered'>Proyecto parcial</h1>", unsafe_allow_html=True)
+st.markdown("<center> Proyecto parcial", unsafe_allow_html=True)
 st.markdown("<h2 class='centered'>Facultad de Ingeniería Mecánica y Eléctrica</h2>", unsafe_allow_html=True)
 st.markdown("<h3 class='centered'>Ingeniería en Computación Inteligente</h3>", unsafe_allow_html=True)
 
@@ -52,12 +52,16 @@ st.markdown(" [Esto es un texto en markdown, link2] (https://www.ucol.mx/)")
 st.sidebar.title('Opciones')
 
 # Agrega elementos a la barra lateral
-option = st.sidebar.selectbox(
-    'Selecciona una opción',
-    ('Inicio', 'Configuración', 'Ayuda')
+# option = st.sidebar.selectbox(
+#     'Selecciona una opción',
+#     ('Inicio', 'Configuración', 'Ayuda')
+# )
+
+option = st.sidebar.radio(
+    'Selecciona una opción', 
+    ('Opción 1', 'Opción 2', 'Opción 3')
 )
 
-opcion = st.sidebar.multiselect()
 
 # Mostrar el contenido principal en función de la opción seleccionada
 if option == 'Inicio':
