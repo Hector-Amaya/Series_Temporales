@@ -5,9 +5,9 @@ st.header('Este es un encabezado')
 st.subheader('Este es un subencabezado')
 
 st.markdown("""
-# Universidad de Colima
-# Campus Coquimatlán
-# Facultad de Ingeniería Mecánica y Eléctrica
+# &nbsp; # Universidad de Colima
+# &nbsp; # Campus Coquimatlán
+# &nbsp; # Facultad de Ingeniería Mecánica y Eléctrica
 
 ## **Proyecto de Ejercicios de la 2da parcial en Streamlit**
 
