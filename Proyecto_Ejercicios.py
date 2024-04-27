@@ -31,37 +31,10 @@ st.title('Hola Mundo')
 st.header('Este es un encabezado')
 st.subheader('Este es un subencabezado')
 
-st.markdown("""
-<center>
+st.markdown("<h1 class='centered'>Proyecto parcial</h1>", unsafe_allow_html=True)
+st.markdown("<h2 class='centered'>Facultad de Ingeniería Mecánica y Eléctrica</h2>", unsafe_allow_html=True)
+st.markdown("<h3 class='centered'>Ingeniería en Computación Inteligente</h3>", unsafe_allow_html=True)
 
-# Universidad de Colima
-### Campus Coquimatlán
-### Facultad de Ingeniería Mecánica y Eléctrica
-
-<br>
-
-## **Estadíticas descriptivas**
-
-<br>
-</center>
-
-#### **Materia:** Análisis de Series Temporales
-#### **Maestro:** Mata López Walter Alexander
-
-<br>
-
-#### **Alumno:** Amaya González Héctor Eduardo
-
-
-
-#### **Carrera:** Ingeniería en Computación Inteligente
-#### **Semestre y Grupo:** 6°B
-
-
-<br>
-
-#### **Fecha de Entrega:** 14/04/2024
-""")
 
 st.markdown('### Esto es un texto en markdown')
 st.markdown("### Esto es un texto en markdown")
