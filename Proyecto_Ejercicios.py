@@ -31,7 +31,7 @@ st.title('Hola Mundo')
 st.header('Este es un encabezado')
 st.subheader('Este es un subencabezado')
 
-st.markdown("<center> Proyecto parcial", unsafe_allow_html=True)
+st.markdown("<center> ### Proyecto parcial", unsafe_allow_html=True)
 st.markdown("<h2 class='centered'>Facultad de Ingeniería Mecánica y Eléctrica</h2>", unsafe_allow_html=True)
 st.markdown("<h3 class='centered'>Ingeniería en Computación Inteligente</h3>", unsafe_allow_html=True)
 
