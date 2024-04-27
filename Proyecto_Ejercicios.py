@@ -4,7 +4,7 @@ st.title('Hola Mundo')
 st.header('Este es un encabezado')
 st.subheader('Este es un subencabezado')
 
-st.markdown("""
+st.markdown("
 <center>
 
 # Universidad de Colima
@@ -31,7 +31,7 @@ st.markdown("""
 <br>
 
 #### **Fecha de Entrega:** 26/04/2024
-""")
+")
 st.markdown('### Esto es un texto en markdown')
 st.markdown("### Esto es un texto en markdown")
 
