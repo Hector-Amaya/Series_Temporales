@@ -59,7 +59,7 @@ st.sidebar.title('Opciones')
 
 option = st.sidebar.radio(
     'Selecciona una opción', 
-    ('Opción 1', 'Opción 2', 'Opción 3')
+    ('Inicio', 'Configuración', 'Ayuda')
 )
 
 
